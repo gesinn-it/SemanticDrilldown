@@ -34,7 +34,7 @@ before_install:
   - wget https://raw.githubusercontent.com/SemanticMediaWiki/CIScripts/main/travis/install-mediawiki.sh
 
 install:
-  - bash install-mediawiki.sh
+  - bash ./install-mediawiki.sh
 
 script:
   # - bash ./build/travis/run-tests.sh
