@@ -35,6 +35,7 @@ before_install:
 
 install:
   - bash ./install-mediawiki.sh
+  - bash ./build/travis/install-semantic-drilldown.sh
 
 script:
   - bash ./build/travis/run-tests.sh
