@@ -37,7 +37,7 @@ install:
   - bash ./install-mediawiki.sh
 
 script:
-  # - bash ./build/travis/run-tests.sh
+  - bash ./build/travis/run-tests.sh
 
 cache:
   directories:

@@ -11,6 +11,7 @@
 			"minus-x check .",
 			"phpcs -sp"
 		],
+		"phpunit": "php ../../tests/phpunit/phpunit.php -c phpunit.xml.dist",
 		"fix": [
 			"minus-x fix .",
 			"phpcbf"
